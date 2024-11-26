@@ -26,6 +26,10 @@
       {
         "command": "windsurf.showContext",
         "title": "Show Current Context"
+      },
+      {
+        "command": "windsurf.refresh",
+        "title": "Refresh Windsurf View"
       }
     ],
     "viewsContainers": {
