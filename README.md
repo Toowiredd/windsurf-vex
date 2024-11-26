@@ -116,3 +116,18 @@ The project uses GitHub Actions for CI/CD:
 ## License
 
 MIT License - see LICENSE for details
+
+## TreeView Provider
+
+The TreeView provider for the Cascade sidebar includes the following features:
+
+- Show current context
+- Display file groups
+- Show context history
+- Add context actions
+
+### Usage
+
+1. Open the Cascade sidebar in VS Code.
+2. The current context, file groups, and context history will be displayed.
+3. Use the context actions to manage your contexts.
