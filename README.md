@@ -1,6 +1,6 @@
-# Cascade for VS Code
+# Windsurf Vex
 
-ADHD-friendly context tracking and project organization for Visual Studio Code.
+A personal context memory management app for Windsurf.
 
 ## Features
 
@@ -28,7 +28,7 @@ Use these prompts with GitHub Copilot to help build features:
 
 2. **TreeView Provider**
    ```typescript
-   // @copilot-prompt: Create a TreeView provider for the Cascade sidebar
+   // @copilot-prompt: Create a TreeView provider for the Windsurf Vex sidebar
    // - Show current context
    // - Display file groups
    // - Show context history
@@ -37,7 +37,7 @@ Use these prompts with GitHub Copilot to help build features:
 
 3. **Settings Management**
    ```typescript
-   // @copilot-prompt: Create a settings manager for Cascade configuration
+   // @copilot-prompt: Create a settings manager for Windsurf Vex configuration
    // - Load/save settings
    // - Validate settings
    // - Apply setting changes
@@ -57,8 +57,8 @@ Use these prompts with GitHub Copilot to help build features:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cascade-vscode.git
-   cd cascade-vscode
+   git clone https://github.com/yourusername/windsurf-vex.git
+   cd windsurf-vex
    ```
 
 2. Install dependencies:
@@ -79,10 +79,10 @@ Use these prompts with GitHub Copilot to help build features:
 ### Project Structure
 
 ```
-cascade-vscode/
+windsurf-vex/
 ├── src/
 │   ├── extension.ts           # Extension entry point
-│   ├── cascade/              # Core Cascade functionality
+│   ├── windsurf/              # Core Windsurf Vex functionality
 │   │   ├── manager.ts        # Main manager class
 │   │   ├── tracker.ts        # Context tracking
 │   │   └── types.ts         # Type definitions
@@ -112,6 +112,25 @@ The project uses GitHub Actions for CI/CD:
 3. Make your changes
 4. Add tests
 5. Create a PR
+
+## Using the "Context Review & Next Steps" Feature
+
+The "Context Review & Next Steps" feature helps you review recent activities, assess your progress, and plan your next steps effectively. Here's how to use it:
+
+1. **Access the Feature:**
+   - Open the Quick Action Menu in VS Code.
+   - Select "Context Review & Next Steps" from the list of actions.
+
+2. **Review Recent Activities:**
+   - The feature will display the number of recent conversations and interactions.
+
+3. **Assess Progress:**
+   - It will show the current roadmap items and any blockers you might have.
+
+4. **Plan Next Steps:**
+   - It provides a summary of the next steps based on your recent interactions.
+
+This feature is designed to give you a quick overview of your current context and help you plan your workflow efficiently.
 
 ## License
 
